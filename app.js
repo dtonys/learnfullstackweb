@@ -48,9 +48,10 @@ app.get('/', function(req, res) {
 
 app.post('/save-user', function(req, res) {
   var userEmail = req.body.email;
+  var userAbout = req.body.about;
   var emailID = userEmail.split('@')[0];
   var userNode = firebaseDB.ref('emails').child(emailID);
-  userNode.set({ email: userEmail });
+  userNode.set({ email: userEmail, about: userAbout });
   res.json({
     success: true
   });
