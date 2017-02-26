@@ -2,16 +2,237 @@
 <html lang="en">
   <head>
     <!-- META -->
-    <title> Web Minimal </title>
+    <title> Learn full stack web development </title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <!-- CSS -->
-    <link rel="stylesheet" href="/css/normalize.css" >
-    <link rel="stylesheet" href="/css/main.css" >
+
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
   </head>
   <body>
-    Main
-    <!-- JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1> Learn full stack web development </h1>
+        <br>
+        <h4> Technical training to learn the fundamentals of coding, web development, and software engineering </h4>
+        <br>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <h2 style="text-align: center;" > What to expect </h2>
+      <br>
+      <div class="row">
+        <div class="col-md-6">
+          <h4> No prior experience required</h4>
+          <p> We teach coding from the ground up, guiding you through the fundamentals </p>
+          <p> We challenge you to solve problems on your own, but are there to help if you get stuck </p>
+          <p> We start by using simple libraries and APIs, and work our way up to larger frameworks and integrations</p>
+        </div>
+        <div class="col-md-6">
+          <h4> An iterative, hands on approach</h4>
+          <p> We believe that the best way to learn coding is to do it, repeatedly </p>
+          <p> We will help you set up the fastest, most efficient environment to accelerate your rate of learning </p>
+          <p> Each lesson we teach will help you to build and improve your portfolio <p/>
+       </div>
+      </div>
+      <hr>
+      <h2 style="text-align: center;" > What our training focuses on </h2>
+      <div class="row" style="margin-bottom: 40px;" >
+        <div class="col-md-4" style="text-align: center;" >
+          <h4> Learning to code </h4>
+          <img src="/img/code2.jpg" alt="code" width="200" class="img-rounded">
+          <!-- <img src="/img/code2.jpg" alt="code" class="img-rounded"> -->
+        </div>      
+        <div class="col-md-4" style="text-align: center;" >
+          <h4> Building your portfolio </h4>
+          <img src="/img/portolio.jpg" alt="portfolio" width="200" class="img-rounded">
+        </div>
+        <div class="col-md-4" style="text-align: center;" >
+          <h4> Getting you a job </h4>
+          <img src="/img/job.jpg" alt="portfolio" width="200" class="img-rounded">
+        </div>
+        <br>
+        <br>
+        <br>
+      </div>
+      <hr>
+      <div class="row" style="text-align: center;">
+        <a href="#signup">
+          <button type="button" class="btn btn-success">Click here to signup today!</button>
+        </a>   
+      </div>      
+      <hr>
+      <h2 style="text-align: center;" > High level topics </h2>
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Frontend</h4>
+          <p> Master the fundamentals of HTML, CSS, and Javascript </p>
+          <p> Use jQuery to query and manipulate the DOM </p>
+          <p> Integrate with popular frameworks like Bootstrap and Semantic UI </p>
+        </div>
+        <div class="col-md-4">
+          <h4>Backend</h4>
+          <p> Learn to build a web server with nodejs </p>
+          <p> Save and persist data with mongoDB and firebase </p>
+          <p> Allow users to signup, login, and post content to your application </p>
+       </div>
+        <div class="col-md-4">
+          <h4>Architecture</h4>
+          <p> Build both traditional server rendered apps, and modern singe page apps </p>
+          <p> Discuss tradeoffs between different web architectures </p>
+          <p> Understand concepts such as: REST, JSON, CRUD, HTTP, Cookies, and more... </p>
+       </div>
+      </div>
+      <hr>
+      <h2 style="text-align: center;" > Frameworks and technologies </h2>
+      <br>
+      <div class="row" >
+        <div class="col-md-2" style="text-align: center;" >
+          <b> express </b>
+          <br><br>
+          <img src="/img/tech/express.png" alt="code" width="50" class="img-rounded">
+        </div>
+        <div class="col-md-2" style="text-align: center;" >
+          <b> firebase </b>
+          <br><br>
+          <img src="/img/tech/firebase.png" alt="code" width="50" class="img-rounded">
+        </div>
+        <div class="col-md-2" style="text-align: center;" >
+          <b> javascript </b>
+          <br><br>
+          <img src="/img/tech/javascript.png" alt="code" width="50" class="img-rounded">
+        </div>
+        <div class="col-md-2" style="text-align: center;" >
+          <b> jQuery </b>
+          <br><br>
+          <img src="/img/tech/jquery.jpeg" alt="code" width="50" class="img-rounded">
+        </div>
+        <div class="col-md-2" style="text-align: center;" >
+          <b> mongoDB </b>
+          <br><br>
+          <img src="/img/tech/mongo.png" alt="code" width="50" class="img-rounded">
+        </div>
+        <div class="col-md-2" style="text-align: center;" >
+          <b> nodejs </b>
+          <br><br>
+          <img src="/img/tech/node.png" alt="code" width="50" class="img-rounded">
+        </div>                                          
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-2" style="text-align: center;" >
+          <b> css3 </b>
+          <br><br>
+          <img src="/img/tech/css.png" alt="code" width="50" class="img-rounded">
+        </div>
+        <div class="col-md-2" style="text-align: center;" >
+          <b> html5 </b>
+          <br><br>
+          <img src="/img/tech/html.png" alt="code" width="50" class="img-rounded">
+        </div>
+        <div class="col-md-2" style="text-align: center;" >
+          <b> reactjs </b>
+          <br><br>
+          <img src="/img/tech/react.png" alt="code" width="50" class="img-rounded">
+        </div>
+        <div class="col-md-2" style="text-align: center;" >
+          <b> ruby on rails </b>
+          <br><br>
+          <img src="/img/tech/ror.png" alt="code" width="50" class="img-rounded">
+        </div>
+        <div class="col-md-2" style="text-align: center;" >
+          <b> webpack </b>
+          <br><br>
+          <img src="/img/tech/webpack.jpeg" alt="code" width="100" class="img-rounded">
+        </div>
+        <div class="col-md-2" style="text-align: center;" >
+          <b> bootstrap </b>
+          <br><br>
+          <img src="/img/tech/bootstrap.jpeg" alt="code" width="50" class="img-rounded">
+        </div>
+      </div>
+      <hr>
+      <div class="row" style="text-align: center;">
+        <a href="#signup">
+          <button type="button" class="btn btn-success">Click here to signup today!</button>
+        </a>   
+      </div>
+      <hr>
+      <h2 style="text-align: center;" > About the instructor </h2>
+      <br>
+      <div class="row" style="text-align: left; max-width: 600px; margin: auto;">
+        <div> 7 years of experience working for startups and small companies building webapps </div>
+        <br>
+        <div> Has built 3 web applications from the ground up </div>
+        <br>
+        <div> Studied computer science game design, worked as a game developer in college and game contractor in Unity3D </div>
+        <br>
+        <div> Self taught web software engineer </div>
+        <br>
+        <div> Javascript expert with working experience in C#, Ruby on Rails, and several other web frameworks </div>
+        <br>
+        <div> Works as full time as a Senior Software engineer, 2nd full time hire in an early stage startup </div>
+        <br>
+        <div> Has interviewed over 100 engineers, understands what skills and attitudes tech companies are looking for </div>
+        <br>
+        <div> Receives 1-2 emails per week from recruiters, and inbound messages from Google, Facebook, Twitter, and other top tier tech companies </div>
+      </div>
+      <hr>
+      <br><br><br>
+      <div class="signup-form-wrap" >
+        <h2 style="text-align: center;" > Sign up! </h2>
+        <br><br>
+        <div class="row" style="text-align: left; max-width: 600px; margin: auto;">
+          <div> Our curriculum is currently in the alpha phase </div>
+          <br>
+          <div> We are looking for extremely passionate and motivated students to help test and validate our accelerated learning processes </div>
+          <br>
+          <div> During this phase, we are offering a massive price discount for early adopters </div>
+          <br>
+          <div> Early participants, if accepted into our program, will also recieve additional one on one attention, mentorship, and will connect with some of the brightest minds in silicon valley </div>
+          <br>
+          <form class="signup_form" >
+            <a name="signup"></a> 
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Tell us a bit about yourself, and what motivates you to become a full stack web developer</label>
+              <textarea required class="form-control" name="about" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <br><br><br><br><br>
+          <br><br><br><br><br>
+        </div>
+      </div>
+      <div class="signup-form-success-wrap" style="text-align: center; display: none;"; >
+        <h1> Thank you for your submission. </h1>
+        <h1> You will hear back from us soon! </h1>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>        
+      </div>
+      <br>      
+
+    </div> <!-- /container -->
+
+    <!--  jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="/js/jquery.serializeJSON.js"></script>
+    <!--  BOOTSTRAP JS-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- main -->
     <script src="/js/main.js"></script>
   </body>
 </html>
