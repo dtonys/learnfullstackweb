@@ -19,7 +19,7 @@ var app = express();
 
 // Connect to firebase
 var admin = require("firebase-admin");
-var serviceAccount = require("./brilliant-torch-6200-firebase-adminsdk-mochz-14cd68a7ca.json");
+var serviceAccount = require("./brilliant-torch-6200-firebase-adminsdk-mochz-9ec46832fa.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
