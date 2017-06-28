@@ -1,21 +1,11 @@
 {
-  "name": "web_minimal",
+  "name": "learnfullstackweb",
   "version": "1.0.0",
-  "description": "basic setup for a web page",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node app.js",
+    "start": "forever start --uid learnfullstackweb --append app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dtonys/web_minimal.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dtonys/web_minimal/issues"
-  },
-  "homepage": "https://github.com/dtonys/web_minimal#readme",
   "dependencies": {
     "body-parser": "^1.16.1",
     "compression": "^1.6.2",
@@ -24,6 +14,7 @@
     "errorhandler": "^1.5.0",
     "express": "^4.14.1",
     "firebase-admin": "^4.1.1",
+    "forever": "^0.15.3",
     "lodash": "^4.17.4",
     "method-override": "^2.3.7",
     "morgan": "^1.8.1",

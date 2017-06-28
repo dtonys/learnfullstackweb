@@ -57,7 +57,7 @@ app.post('/save-user', function(req, res) {
   });
 });
 
-app.listen(3000, function() {
-  console.log("Express server listening on port ", this.address().port, app.settings.env);
+app.listen(8040, function() {
+  console.log("Express server listening on port", this.address().port, app.settings.env);
 });
 
